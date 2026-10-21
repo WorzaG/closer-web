@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Closer App</title>
+  <meta name="description" content="Privacy Policy for Closer: Tactile micro-connection for couples and partners.">
+  <style>
+    :root {
+      --bg: #0D0B14;
+      --card-bg: rgba(26, 22, 43, 0.75);
+      --card-border: rgba(255, 255, 255, 0.08);
+      --text-main: #FFFFFF;
+      --text-muted: #A09DB5;
+      --accent: #FF5E62;
+      --accent-purple: #C084FC;
+      --accent-glow: rgba(255, 94, 98, 0.25);
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text-main);
+      line-height: 1.65;
+      padding: 32px 16px 80px 16px;
+      background-image: 
+        radial-gradient(circle at 15% 15%, rgba(255, 94, 98, 0.12) 0%, transparent 40%),
+        radial-gradient(circle at 85% 75%, rgba(192, 132, 252, 0.10) 0%, transparent 40%);
+      background-attachment: fixed;
+    }
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--card-border);
+    }
+    .logo-container {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 12px;
+      text-decoration: none;
+    }
+    .logo-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, #FF5E62, #C084FC);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 18px var(--accent-glow);
+    }
+    .logo-icon svg {
+      width: 26px;
+      height: 26px;
+      fill: #FFFFFF;
+    }
+    .app-name {
+      font-size: 26px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      background: linear-gradient(135deg, #FFFFFF, #E2E8F0);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    h1 {
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      letter-spacing: -0.5px;
+    }
+    .updated {
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+    .lang-switcher {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      margin-top: 18px;
+    }
+    .lang-btn {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      color: var(--text-muted);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .lang-btn.active {
+      background: rgba(255, 94, 98, 0.15);
+      border-color: var(--accent);
+      color: #FFFFFF;
+    }
+    .card {
+      background: var(--card-bg);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid var(--card-border);
+      border-radius: 20px;
+      padding: 32px;
+      margin-bottom: 24px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    }
+    h2 {
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 28px;
+      margin-bottom: 12px;
+      color: #FFFFFF;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    h2:first-of-type {
+      margin-top: 0;
+    }
+    h2 .num {
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      background: rgba(255, 94, 98, 0.15);
+      color: var(--accent);
+      font-size: 13px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+    }
+    p {
+      color: var(--text-muted);
+      margin-bottom: 14px;
+      font-size: 15px;
+    }
+    ul {
+      margin-left: 20px;
+      margin-bottom: 16px;
+      color: var(--text-muted);
+      font-size: 15px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    strong {
+      color: var(--text-main);
+    }
+    .highlight-box {
+      background: rgba(255, 94, 98, 0.08);
+      border-left: 3px solid var(--accent);
+      border-radius: 8px;
+      padding: 14px 18px;
+      margin: 18px 0;
+      color: #F1F5F9;
+      font-size: 14.5px;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 48px;
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+    .footer a {
+      color: var(--accent);
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+    .lang-section {
+      display: block;
+    }
+    .lang-section.hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">
+      <a href="index.html" class="logo-container">
+        <div class="logo-icon">
+          <svg viewBox="0 0 24 24">
+            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+          </svg>
+        </div>
+        <span class="app-name">Closer</span>
+      </a>
+      <h1 id="page-title">Privacy Policy</h1>
+      <p class="updated" id="page-updated">Last Updated: October 2026</p>
+
+      <div class="lang-switcher">
+        <button class="lang-btn active" onclick="switchLang('en')">English</button>
+        <button class="lang-btn" onclick="switchLang('tr')">Türkçe</button>
+      </div>
+    </div>
+
+    <!-- ENGLISH CONTENT (Default for Apple Reviewers) -->
+    <div id="content-en" class="lang-section card">
+      <div class="highlight-box">
+        <strong>Privacy First:</strong> Closer is a strictly 1-to-1 tactile micro-connection app for couples and close partners. We do NOT sell your data, we do NOT display ads, and we do NOT track your background location history.
+      </div>
+
+      <h2><span class="num">1</span> Introduction</h2>
+      <p>This Privacy Policy explains how Closer ("we", "our", or "the App") collects, uses, and safeguards your information when you use our mobile application. We respect your privacy and are committed to minimizing the data we collect to strictly what is needed to deliver real-time tactile signals between you and your paired partner.</p>
+
+      <h2><span class="num">2</span> Data We Collect & How We Use It</h2>
+      <p>Closer is built on the principle of data minimization (compliant with Apple App Store Guidelines and GDPR/KVKK):</p>
+      <ul>
+        <li><strong>Display Name / Nickname:</strong> An arbitrary name or nickname chosen by you (e.g. "Can") used solely to identify you to your paired partner. No email or password is required to create a profile.</li>
+        <li><strong>Location Data (Foreground Only):</strong> When granted, we access your device location <em>only while the application is active in the foreground</em> to calculate the relative physical distance between you and your paired partner (e.g. "12.4 km apart"). <strong>We do not record, log, track, or store historical GPS tracks or coordinates on our servers.</strong> Distance is computed transiently and in-memory.</li>
+        <li><strong>Push Notification Token:</strong> If you enable push notifications, a unique Expo Push Token is saved to send you instant micro-signals (such as "❤️ Gizem misses you!" or "🫂 Gizem is sending a hug!") when the app is minimized.</li>
+        <li><strong>Device & Presence Status:</strong> Ephemeral battery level and connection status (e.g. "Home", "Work", "On the go") shared exclusively in real-time with your paired partner so you feel connected.</li>
+        <li><strong>Micro-Signals:</strong> Transient signal records (signal type, timestamp, hug duration in seconds) sent between you and your partner to calculate shared touch stats.</li>
+      </ul>
+
+      <h2><span class="num">3</span> 1-to-1 Architecture & No Third-Party Sharing</h2>
+      <p>Closer does not have a public feed, search directory, or social network. Your pairing code is private and pairs you with exactly one person. We do <strong>not</strong> sell, rent, license, or disclose your personal information to third-party data brokers, marketers, or analytics trackers.</p>
+
+      <h2><span class="num">4</span> Data Storage & Security</h2>
+      <p>All network communications between your mobile device and our backend servers utilize encrypted transport security (HTTPS/TLS and secure WebSockets). Real-time interactions are ephemeral and kept strictly within your private couple room.</p>
+
+      <h2><span class="num">5</span> Permanent Account & Data Deletion</h2>
+      <p>Under Apple App Store Guideline 5.1.1(v) and global privacy laws, you have the full right to delete all your data at any time:</p>
+      <ul>
+        <li>Inside Closer, open <strong>Settings</strong> and tap <strong>"Hesabımı Kalıcı Olarak Sil" (Permanently Delete My Account)</strong>.</li>
+        <li>This action immediately dissolves your partner link, erases your user profile, revokes your pair code, and purges all associated micro-signal logs permanently from our database.</li>
+      </ul>
+
+      <h2><span class="num">6</span> Children's Privacy</h2>
+      <p>Closer is intended for general audiences and couples aged 13 and above. We do not knowingly solicit or collect personal information from children under the age of 13.</p>
+
+      <h2><span class="num">7</span> Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated revision date.</p>
+
+      <h2><span class="num">8</span> Contact Us</h2>
+      <p>If you have any questions, inquiries, or requests regarding this Privacy Policy or your personal data, please contact us at:</p>
+      <p><strong>Email:</strong> <a href="mailto:support@closerapp.com" style="color: var(--accent);">support@closerapp.com</a></p>
+    </div>
+
+    <!-- TURKISH CONTENT -->
+    <div id="content-tr" class="lang-section card hidden">
+      <div class="highlight-box">
+        <strong>Önce Gizlilik:</strong> Closer, çiftler ve yakın partnerler arasında 1'e 1 dokunsal mikro-bağlantı sağlayan kapalı bir uygulamadır. Verilerinizi satmayız, reklam göstermeyiz ve arka plan konum geçmişinizi asla kaydetmeyiz.
+      </div>
+
+      <h2><span class="num">1</span> Giriş</h2>
+      <p>Bu Gizlilik Politikası, Closer mobil uygulamasını ("Uygulama") kullandığınızda kişisel verilerinizin nasıl toplandığını, işlendiğini ve korunduğunu açıklar. Gizliliğinize en üst düzeyde saygı duyuyor ve yalnızca partnerinizle aranızdaki gerçek zamanlı dokunsal iletişimi sağlamak için gereken minimum veriyi işliyoruz.</p>
+
+      <h2><span class="num">2</span> Toplanan Veriler ve Kullanım Amaçları</h2>
+      <p>Closer, KVKK, GDPR ve Apple App Store veri minimizasyonu ilkelerine tam uyumlu olarak tasarlanmıştır:</p>
+      <ul>
+        <li><strong>Rumuz / Kullanıcı Adı:</strong> Partnerinizin sizi ekranda tanıması için belirlediğiniz serbest isim (örn. "Can"). Profil açmak için e-posta veya şifre zorunlu değildir.</li>
+        <li><strong>Konum Bilgisi (Sadece Uygulama Açıkken):</strong> İzin verdiğiniz takdirde, konum bilgisine <em>yalnızca uygulama açıkken (ön planda)</em> partnerinizle aranızdaki fiziksel mesafeyi hesaplamak ("12.4 km uzakta") amacıyla başvurulur. <strong>Sunucularımızda geçmiş konum izi veya rota kayıtları tutulmaz.</strong> Mesafe anlık ve geçici olarak hesaplanır.</li>
+        <li><strong>Anlık Bildirim İzni ve Token:</strong> Bildirim izni verdiğinizde, uygulama kapalıyken partnerinizden gelen mikro-sinyalleri (örn. "❤️ Gizem seni özledi!", "🫂 Gizem sana sarılıyor!") kilit ekranınıza ulaştırabilmek için benzersiz bir bildirim belirteci (Expo Push Token) kullanılır.</li>
+        <li><strong>Cihaz ve Durum Bilgisi:</strong> Anlık batarya seviyesi ve durumunuz ("Evde", "İşte", "Yolda"), sadece eşleştiğiniz partnerinizin nabız küresinde gerçek zamanlı görüntülenmek üzere paylaşılır.</li>
+        <li><strong>Mikro-Sinyal Kayıtları:</strong> Partnerinizle karşılıklı dokunuş istatistiklerinizi ("En Uzun Sarılma", "Son Dokunuş") görüntüleyebilmeniz için sinyal tipi ve süresi geçici olarak eşleştirilir.</li>
+      </ul>
+
+      <h2><span class="num">3</span> Kapalı İkili Sistem ve Üçüncü Taraflarla Paylaşım</h2>
+      <p>Closer'da herkese açık profil, arama motoru veya sosyal akış bulunmaz. Eşleşme kodunuz gizlidir ve yalnızca tek bir kişiyle eşleşebilirsiniz. Verileriniz hiçbir reklam ağına, veri komisyoncusuna veya üçüncü şahıslara <strong>asla satılmaz ve kiralanmaz</strong>.</p>
+
+      <h2><span class="num">4</span> Veri Güvenliği</h2>
+      <p>Cihazınız ile sunucularımız arasındaki tüm veri aktarımı şifreli SSL/TLS ve güvenli WebSocket protokolleri üzerinden gerçekleşir.</p>
+
+      <h2><span class="num">5</span> Hesabı ve Verileri Kalıcı Olarak Silme Hakkı</h2>
+      <p>Apple App Store Yönergesi 5.1.1(v) ve yasal mevzuatlar uyarınca, dilediğiniz an tüm verilerinizi sistemden kalıcı olarak silebilirsiniz:</p>
+      <ul>
+        <li>Uygulama içinden <strong>Ayarlar</strong> sekmesine gidin ve <strong>"Hesabımı Kalıcı Olarak Sil"</strong> butonuna basın.</li>
+        <li>Bu işlem anında partner eşleşmenizi koparır, profilinizi, eşleşme kodunuzu ve sunucudaki tüm sinyal geçmişinizi geri getirilemez biçimde tamamen siler.</li>
+      </ul>
+
+      <h2><span class="num">6</span> Çocukların Gizliliği</h2>
+      <p>Closer, 13 yaş ve üzeri kullanıcılar için geliştirilmiştir. 13 yaş altındaki bireylerden bilerek kişisel veri toplanmamaktadır.</p>
+
+      <h2><span class="num">7</span> İletişim</h2>
+      <p>Gizlilik politikamız veya kişisel verilerinizle ilgili her türlü soru ve talebiniz için bize ulaşabilirsiniz:</p>
+      <p><strong>E-posta:</strong> <a href="mailto:support@closerapp.com" style="color: var(--accent);">support@closerapp.com</a></p>
+    </div>
+
+    <div class="footer">
+      <p>© 2026 Closer App. Tüm hakları saklıdır.</p>
+      <p style="margin-top: 8px;">
+        <a href="index.html">Ana Sayfa</a> •
+        <a href="privacy.html">Gizlilik Politikası</a> •
+        <a href="support.html">Destek / Support</a>
+      </p>
+    </div>
+  </div>
+
+  <script>
+    function switchLang(lang) {
+      const enSection = document.getElementById('content-en');
+      const trSection = document.getElementById('content-tr');
+      const btns = document.querySelectorAll('.lang-btn');
+      const title = document.getElementById('page-title');
+      const updated = document.getElementById('page-updated');
+
+      btns.forEach(b => b.classList.remove('active'));
+
+      if (lang === 'tr') {
+        enSection.classList.add('hidden');
+        trSection.classList.remove('hidden');
+        btns[1].classList.add('active');
+        title.textContent = 'Gizlilik Politikası';
+        updated.textContent = 'Son Güncelleme: Ekim 2026';
+      } else {
+        trSection.classList.add('hidden');
+        enSection.classList.remove('hidden');
+        btns[0].classList.add('active');
+        title.textContent = 'Privacy Policy';
+        updated.textContent = 'Last Updated: October 2026';
+      }
+    }
+  </script>
+</body>
+</html>
